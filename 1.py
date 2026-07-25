@@ -1,3 +1,5 @@
+#best first search
+
 def Best_first_search(graph,start,goal,heuristic,path=[]):
     open = [(0,start)]
     closed = set()
