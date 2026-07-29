@@ -8,7 +8,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-d = pd.read_csv('titanic.csv')
+d = pd.read_csv('ToyotaCorolla.csv')
 
 x=d["KM"]
 y=d["Weight"]
@@ -21,7 +21,7 @@ plt.show()
 
 
 
-#2
+#3
 #Visualize the n-dimensional data using contour plots.
 
 import pandas as pd
@@ -46,7 +46,7 @@ plt.show()
 
 
 
-#3
+#4
 #Visualize the n-dimensional data using heat-map.
 
 import pandas as pd
@@ -60,7 +60,7 @@ sns.heatmap(data[["Price","KM","Doors", "Weight"]].corr(),cmap='jet',annot=True)
 plt.show()
 
 
-#4
+#5
 # Visualize the n-dimensional data using Box-plot.
 
 import pandas as pd
