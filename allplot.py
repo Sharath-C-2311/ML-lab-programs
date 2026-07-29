@@ -1,8 +1,14 @@
 
+# scatter
+import matplotlib.pyplot as plt
+import pandas as pd
+data=pd.read_csv('ToyotaCorolla.csv')
+plt.scatter(data['Price'],data['KM'],s=10,c=data['Price'],cmap='jet')
+plt.title("nice to meet you")
+plt.show()
 
 
-
-
+#2
 import numpy as np
 import pandas as pd
 import seaborn as sns
