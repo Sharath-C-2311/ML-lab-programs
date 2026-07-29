@@ -14,7 +14,7 @@ print("1:",x.shape)
 print("2:",x_t.shape)
 
 p1 = x_t[:,0]
-p2 = x_t[:,0]
+p2 = x_t[:,1]
 plt.scatter(p1,p2,c=y,cmap="jet")
 plt.show()
 
